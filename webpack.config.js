@@ -51,5 +51,9 @@ export default {
     compress: true,
     port: 9000,
     hot: true,
+    watchFiles: [
+      path.resolve(__dirname, 'src/**/*.html'),
+      path.resolve(__dirname, 'src/assets/**/*'),
+    ],
   },
 }; 
