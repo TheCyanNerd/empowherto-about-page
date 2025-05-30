@@ -1,9 +1,0 @@
-node_modules/
-dist/
-coverage/
-*.config.js
-.git/
-.gitignore
-README.md
-package.json
-package-lock.json 
